@@ -1,0 +1,11 @@
+mutation CreateMediaMessage($input:MediaInput!, $messageId:String!,$paginaId:String!){
+  createMediaMessage(input:$input, messageId:$messageId,paginaId:$paginaId)
+  {id
+  text
+  creatorId  
+  urlFile
+  creator{
+    id
+    username
+  }}
+}

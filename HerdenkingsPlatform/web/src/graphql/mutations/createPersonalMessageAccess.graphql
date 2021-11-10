@@ -1,0 +1,13 @@
+mutation CreatePersonalMessageAccess($userId: String!,$personalMessageId:String!,$paginaId:String! )
+{
+  createPersonalMessageAccess(personalMessageId:$personalMessageId,userId:$userId,paginaId:$paginaId){
+    
+   errors{
+     field
+     message
+   }
+   pma{
+     id
+   }
+  }
+}

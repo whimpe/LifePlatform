@@ -1,0 +1,11 @@
+mutation CreateMediaHerinnering($input:MediaInput!, $herinneringId:String!,$paginaId:String!){
+  createMediaHerinnering(input:$input, herinneringId:$herinneringId,paginaId:$paginaId)
+  {id
+  text
+  creatorId  
+  urlFile
+  creator{
+    id
+    username
+  }}
+}

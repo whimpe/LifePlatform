@@ -1,0 +1,20 @@
+query AccessRequestsByUserId{
+  accessRequestsByUserId{
+    id  
+    paginaId   
+    status
+    requesttext
+    requestor{
+      id 
+      username
+    }
+    pagina{
+      name_of_page
+      mediaUrl
+      DoB
+      DoD
+      text
+      private_token
+    }
+  }
+}

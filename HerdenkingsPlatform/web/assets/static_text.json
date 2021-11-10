@@ -1,0 +1,341 @@
+{
+    "Header": {
+
+        "title": "Herinneringen voor altijd",
+        "paragraph": "Leer iemand kennen via de verhalen van familie en vrienden",
+        "img": "img/landing_page/logo_aet_white.png",
+        "black_logo":"img/logos/logo_black.svg",
+        "flower_logo":"logo_black.svg"
+
+    },
+    "Steps":{
+        "step1":"/img/landing_page/aan_de_slag_1.png",
+        "step2":"/img/landing_page/aan_de_slag_2.png",
+        "step3":"/img/landing_page/aan_de_slag_3.png"
+
+
+    },
+
+    "About_header":{
+        "title": "De gezichten en visie ",
+        "subtitle": "achter Aeterna ",
+        "className":"intro_about"
+    
+    },
+    "Contact_header":{
+        "title": "Vertel ons hoe ",
+        "subtitle": "wij u kunnen helpen. ",
+        "className":"contact"
+
+    
+    },    
+    "Digitize_service":{
+        "title": "Hulp bij het digitaliseren van",
+        "subtitle": "je herinneringen",
+        "className":"digitize_service"
+
+    },
+    "digitize_options":[
+        {
+            "img":"img/landing_page/digitize_service/foto.png",
+            "text":"Foto's",
+            "text_select":"Aantal Foto's"
+        },
+        {
+            "img":"img/landing_page/digitize_service/vhs.png",
+            "text":"Video's",
+            "text_select":"Aantal VHS of filmbanden"
+        },
+        {
+            "img":"img/landing_page/digitize_service/photoalbum.png",
+            "text":"Fotoboeken",
+            "text_select":"Aantal pagina's fotoboeken"
+        },
+        {
+            "img":"img/landing_page/digitize_service/audio.png",
+            "text":"Cassete's",
+            "text_select":"Aantal audio cassettes"
+        },
+        {
+            "img":"img/landing_page/digitize_service/vinyl.png",
+            "text":"Vinyl Platen",
+            "text_select":"Aantal Vinyl Platen"
+        },
+        {
+            "img":"img/landing_page/digitize_service/cds.png",
+            "text":"CD/DVD/Floppy",
+            "text_select":"Aantal CD/DVD/Floppy "
+        },
+
+        {
+            "img":"img/landing_page/digitize_service/dia.png",
+            "text":"Dia's",
+            "text_select":"Aantal Dia's"
+        },
+        {
+            "img":"img/landing_page/digitize_service/letter.png",
+            "text":"Brieven / Documenten",
+            "text_select":"Aantal pagina's Brieven of documenten "
+        }
+    ],
+
+
+
+    "Voorbeelden": {
+
+        "title": "Voorbeelden",
+        "paragraph": "Leer iemand kennen via de verhalen van familie en vrienden",
+        "img": "img/landing_page/voorbeelden_header.png",
+        "btn_text":"Start jouw verhaal"
+
+
+    },
+
+    "Failure":{     
+        "title": "Verhalen voor altijd",
+        "paragraph": "Uw prachtige herinneringen in foto's, video's en verhalen voor altijd bewaard over de volgende generatie",
+        "img": "img/landing_page/aeterna_logo.png"
+},
+
+    "About_f": {
+        "paragraph": "Aeterna biedt mensen de mogelijkheid aan om verhalen, herinneringen en anekdotes te verzamelen en bewaren voor later. Op die manier kan de persoonlijkheid van die persoon voor altijd  bewaard worden. ",
+        "paragraph2": "Wij willen mensen helpen bij het verzamelen van media en verhalen. Zo kunnen de mooie momenten blijven herdacht worden. Wij willen het taboe van de dood doorbreken door te focussen op het mooie aspect van het leven en een persoonlijker afscheid aanreiken.",
+
+        "Why": [
+            "vereeuwiging",
+            "Betere herbelevenis",
+            "dood taboe verbreken",
+            "pijn verlichtend"
+        ],
+        "Why2": [
+          
+            "persoonlijker afscheid",
+            "personen herbeleven",
+            "mensen dichter brengen",
+            "meer aanvaarding"
+            
+        ]
+    },
+   
+    "Testimonials": [{
+            "img": "img/testimonials/01.jpg",
+            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+            "name": "John Doe"
+        },
+        {
+            "img": "img/testimonials/02.jpg",
+            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+            "name": "Johnathan Doe"
+        },
+        {
+            "img": "img/testimonials/03.jpg",
+            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+            "name": "John Doe"
+        },
+        {
+            "img": "img/testimonials/04.jpg",
+            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+            "name": "Johnathan Doe"
+        },
+        {
+            "img": "img/testimonials/05.jpg",
+            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+            "name": "John Doe"
+        },
+        {
+            "img": "img/testimonials/06.jpg",
+            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+            "name": "Johnathan Doe"
+        }
+    ],
+    "Team": [{
+            "img": "img/team/lannoye.jpg",
+            "linkedin":"https://www.linkedin.com/in/willem-lannoye-74715618b/",
+            "name": "WILLEM LANNOYE",
+            "job": "Founder"
+        },
+        {
+            "img": "img/team/maite.jpg",
+            "linkedin":"https://www.linkedin.com/in/mait%C3%A9-van-loo/",
+            "name": "MAITE VAN LOO",
+            "job": "Founder"
+        }, {
+            "img": "img/team/himpe.jpg",
+            "linkedin":"https://www.linkedin.com/in/willem-himpe-953251a9/",
+            "name": "WILLEM HIMPE",
+            "job": "Founder"
+        }
+       
+    ],
+    "Contact": {
+        "address": "Antoon Viaenestraat 8, 8200 Brugge",
+        "phone": "+32 478 43 65 79",
+        "email": "info@aeterna.be",
+        "btw":"BE0713.410.353",
+        "facebook": "https://www.facebook.com/Aeterna-107593764526325",
+        "instagram": "https://www.instagram.com/aeterna.be/",
+        "youtube": "https://www.youtube.com/channel/UCmuiIN-5CIgbh43GynPC7zw",
+        "twitter": "https://twitter.com/aeterna_be",
+        "linkedin": "https://www.linkedin.com/company/aeterna-be"
+    },
+    "Features": {
+        "img": "img/landing_page/collect_icon.png",
+        "hoofdpagina": "img/screenshots_pages/hoofdpagina.png",
+        "herinneringen": "img/screenshots_pages/herinneringen.png",      
+        "gallerij": "img/screenshots_pages/gallerij.png",
+        "condolaties": "img/screenshots_pages/condolaties.png",
+        "opa_willem":"img/screenshots_pages/opa_willem.png"
+
+    },
+    "Features_blocks":{
+        "private":{
+            "main_title":"Privé",
+            "sub_title":"Delen",
+            "text":"Je hebt volledige controle over wie welke herinneringen kan zien. Alle herinneringen blijven op een veilige plek en kunnen op elk moment aangevuld en gewijzigd worden. ",
+            "img":"/img/landing_page/prive_delen.png",
+            "type":"img"
+
+        },
+        "digital_service":{
+            "main_title":"Digitaliseer je",
+            "sub_title":" oude foto's",
+            "text":"Op jouw vraag komt een IT-begeleider langs om je te helpen bij het digitaliseren van oude foto's, cassette's, CD's en DVD's. Al je herinneringen blijven voor altijd bewaard voor vrienden en familie.",
+            "img":"/img/landing_page/box_old_images.jpg",
+            "type":"img",
+            "button":"Digitalisatie Boeken",
+            "button_link":"/digitaliseren"
+            
+
+        },
+        "Partnership":{
+
+           "main_title":"Partner",
+            "sub_title":"worden",
+            "text":"Bent u een organisatie die mensen helpt in rouw, verlies of verwerking van moeilijk tijden. Laat ons dan samenwerken om mensen te helpen met hun nalatenschap en herinneringen te vereeuwigen.",
+            "img":"/img/landing_page/partner_main.png",
+            "type":"img",
+            "button": "Partner worden ",
+            "button_link":"/register-partners"
+            
+
+        },
+  
+        "timeline":{
+                "main_title":"persoonlijke",
+                "sub_title":"tijdlijn",
+                "text":"Alle herinneringen worden automatisch in chronologische volgorde geplaatst. Zo verandert een reeks van losse herinneringen in een waar levensverhaal.",
+                "img":"/img/landing_page/feature_timeline.png",
+                "type":"img"
+
+    
+            },
+        "last_message":{
+       
+                "main_title":"Laatste",
+                "sub_title":"boodschappen",
+                "text":"Je kunt persoonlijke berichten achterlaten voor je nabestaanden en geliefden. Op die manier ben je aanwezig bij je dierbaren als je er fysiek niet meer bij kunt zijn.",                
+                "img":"/img/last_message.mp4",
+                "type":"video"
+            },
+        "digitize_step_1":{
+       
+                "main_title":"Stap 1",
+                "sub_title":"Sorteer",
+                "text":"Bereid en sorteer al je foto’s, films, audiofragmenten, brieven, fysieke documenten en andere voor. Hierdoor kunnen wij gestructureerd aan de slag.",
+                "img":"/img/landing_page/sort_images.jpg",
+                "type":"img"
+            },
+        "digitize_step_2":{
+       
+                "main_title":"Stap 2",
+                "sub_title":"Afspraak maken",
+                "text":"Vul het invulformulier met je persoonlijke gegevens en de media dat je graag wilt digitaliseren. Wij contacteren je met de prijs en spreken een datum af. De betaling wordt gedaan na de digitalisatie dienst.",
+                "img":"/img/landing_page/calender.jpg",
+                "type":"img"
+            },
+        "digitize_step_3":{
+       
+                "main_title":"Stap 3",
+                "sub_title":"Digitalisatie",
+                "text":"Wij halen je foto's, cassettes, CD's/DVD's en andere media op bij je thuis. In ongeveer 2 weken wordt de digitalisatie voltooid,en de herinneringen worden teruggebracht samen met een USB en een digitaal levensverhaal voor 1 jaar online. Bij de aflevering geven wij een woordje uitleg over het digitaal levensverhaal indien nodig.",
+                "img":"/img/landing_page/old_man_computer.jpg",
+                "type":"img"
+            }
+        ,"partner_step_1":{
+       
+                "main_title":"Stap 1",
+                "sub_title":"Ophalen",
+                "text":"Aeterna haalt de foto's, video's, fotoboeken en veel meer op bij de partner. Deze herinneringen worden gedigitaliseerd aan de hoogste kwaliteit.  ",
+                "img":"/img/landing_page/box_old_images.jpg",
+                "type":"img"
+            },
+        "partner_step_2":{
+       
+                "main_title":"Stap 2",
+                "sub_title":"Selecteer",
+                "text":"De familie en partner ontvangt alle digitale media waaruit gekozen kan worden om een mooiere begrafenis samentestellen. Vrienden en kennissen krijgen oook de toestemming om verhalen en herinneringen toe te voegen tot het digitale levensvehaal. Nu kan een veel persoonlijkere dienst sneller en gemakkelijker samengesteld worden.",
+                "img":"/videos/mockup_selection.mp4",
+                "type":"video"
+            },
+        "partner_step_3":{
+       
+                "main_title":"Stap 3",
+                "sub_title":"Herbeleef",
+                "text":"Het digitale levensverhaal komt tot leven en blijft voor altijd bewaard. Familie en vrienden behouden de verhalen en herinneringen nu voor altijd dichtbij. Het nalatenschap kan ook gekoppeld worden aan een fysieke locatie door een QR-code in een herdenkingsteen.",
+                "img":"/videos/mockup_relive.mp4",
+                "type":"video"
+            }
+            
+
+     
+    },
+    "About_us":{
+        "lannoye":{
+            "sub_title":"Willem L.",
+            "full_name":"Co-founder Aeterna",
+            "text":"Een reeks ervaringen en bedenkingen van de afgelopen jaren hebben me onder impuls van de coronacrisis aangezet om met AETERNA te starten. Elk jaar gaan we op Allerheiligen naar het graf van mijn overgrootmoeder. Ik ervaar altijd een gemis als ik aan het graf sta van mijn overgrootmoeder die ik eigenlijk helemaal niet ken. Zelfs alleen haar stem eens kunnen horen, zou al enorm waardevol kunnen zijn. Zo ontstond een idee rond een soort website die me wat zou kunnen vertellen over het leven van die persoon. Dat is wat Aeterna probeert te bieden. Een manier om je familie over generaties heen te leren kennen.",            
+            "img":"/img/team/lann_head.png"
+
+        },
+        "maite":{
+            "sub_title":"Maité",
+            "full_name":"The Ambassador",
+            "text":"Ik was negen jaar toen mijn mama overleed aan borstkanker. Ze liet mij en mijn zus een kistje vol met foto’s van uitstapjes en reizen na samen met een dagboek van haar laatste weken. Na elf jaar vormt dit kistje op moeilijke dagen nog steeds een grote troost, een mooie herinnering aan de sterke vrouw die mijn mama was. Ik besef natuurlijk dat ik heel veel geluk heb gehad dat ik op deze manier afscheid heb kunnen nemen en dat dat niet voor iedereen zo vanzelfsprekend is. We kennen allemaal wel iemand die overleden is.  De grote kracht van Aeterna is dat ze mooie herinneringen levendig willen houden. Vanuit mijn persoonlijke ervaring heb ik dan ook een extra drijfveer om iets waardevols aan te bieden. Het idee van het herinneringskistje dat mijn moeder me naliet, wordtin een modern jasje gestoken metde mogelijkheid om bijvoorbeeld het geluid van de stem op te slaan. Iets wat ik zelf heel erg mis.",
+            "img":"/img/team/mai_head.png"
+
+        },"himpe":{
+            "sub_title":"Willem H.",
+            "full_name":"Co-founder Aeterna",
+            "text":"Mijn opa was de eerste die het leven verliet in mijn intieme kring. Hij verloor de strijd tegen kanker. Dat was een moeilijk periode voor iedereen in de familie. Mijn kleine zus van zes vroeg me tijdens het doorbladeren van het fotoalbum waar opa is. Ze vroeg ook waarom opa zo graag fietste. Op al deze vragen kon ik niet onmiddellijk een antwoord geven, maar misschien een oude vriend of ander familielid wel. Aeterna wil de onwetendheid rond onze dierbaren wegnemen en ons de mogelijkheid geven om met een trots gevoel terug te denken aan de mensen die veel voor ons betekend hebben.",  
+            "img":"/img/team/himp_head.png"
+
+        }
+    
+    
+    },
+    "General_information":{
+        "main_title":"AETERNA",
+        "sub_title":"VOOR ALTIJD",
+        "text_first":"Aeterna is een online platform waar je intieme herinneringen bijhoudt van dierbare mensen om je heen. Om zo herinneringen in leven te houden voor altijd.",
+        "text_second":"Wij willen mensen helpen bij het verzamelen van foto's, video's en verhalen. Zo kan je deze mooie momenten blijven herbeleven. ",
+        "img_right":"/img/landing_page/feature_family.jpg",
+        "img_left":"/img/landing_page/feature_album.jpg"
+    
+      },
+      "MainFeature":{
+
+      },
+      
+    
+    "Verhalen":[{
+
+        "maite": "Ik ben mijn mama verloren toen ik 9 jaar was. Zij heeft mij een prachtige herinneringendoos achtergelaten, met veel intieme foto's en teksten die van ongeschatte waarde zijn. Maar soms zijn deze herinneringen niet genoeg. Een grote angst is dat ik mijn mama haar stem vergeet. Daarom ben ik met Aeterna begonnen, om andere mensen een makkelijke oplossing te bieden voor het delen en bewaren van herinneringen voor altijd.",
+        "lannoye":"Omdat ik geloof dat elke mens unieke ervaringen heeft meegemaakt, vind ik het jammer dat deze gebeurtenissen na de dood vaak vergeten worden. Met ons platform kunnen we niet enkel deze verhalen voor eeuwig bewaren, maar ook hoe een persoon zijn stem en lach klinkt.",
+        "himpe":"Ons platform gaat mensen helpen bij het delen van herinneringen met vrienden en familie. Door gebruik te maken van digitale toestellen die iedereen altijd bij de hand heeft zullen al deze herinnneringen dicht bij de hand zijn. "
+    }],
+
+    "Logo":[{
+       
+    }]
+
+}

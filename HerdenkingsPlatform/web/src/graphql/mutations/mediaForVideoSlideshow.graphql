@@ -1,0 +1,8 @@
+mutation MediaForVideoSlideshow($paginaId:String!){
+    mediaForVideoSlideshow(paginaId:$paginaId){
+        id
+        urlFile
+        
+    }
+}
+

@@ -1,0 +1,25 @@
+query Messages($paginaId:String!,$limit: Int!, $cursor: String) {
+  messages(paginaId:$paginaId,cursor: $cursor, limit: $limit) {
+    
+
+    hasMore
+    berichten {
+      id
+      text
+      createdAt
+      status
+      creator {
+        username
+      }
+
+      media {
+        id
+        urlFile        
+        mediaType
+      }
+    }
+  
+
+
+  }
+}

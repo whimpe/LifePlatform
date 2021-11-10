@@ -1,0 +1,5 @@
+mutation email_collecter( $email: String!,$sheet_index: Float! ) {
+  email_collecter( email: $email,sheet_index: $sheet_index ) 
+}
+
+

@@ -1,0 +1,13 @@
+mutation UpdateHerdenkingsPagina($paginaId:String!,$name_of_page:String!,$DesignType:Float!, $mediaUrl:String!,$text:String!,$condoleance_active:Boolean!,$DoD:DateTime, $DoB:DateTime!,$control_before:Boolean!){
+  updateHerdenkingsPagina(paginaId:$paginaId,name_of_page:$name_of_page,DesignType:$DesignType,mediaUrl:$mediaUrl,text:$text,condoleance_active:$condoleance_active, DoD:$DoD, DoB:$DoB, control_before:$control_before)
+  {
+    
+    id
+    name_of_page 
+    ownerId
+    owner{
+      username
+    }
+    
+  }
+}

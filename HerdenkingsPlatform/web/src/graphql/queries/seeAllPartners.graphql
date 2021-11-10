@@ -1,0 +1,9 @@
+query AllPartners{
+    allPartners{
+        id
+        userId
+        username
+        email
+        vat_number
+    }
+}

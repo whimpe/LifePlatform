@@ -1,0 +1,17 @@
+mutation Register($options: UsernamePasswordInput! ) {
+      register(options: $options) #different way than register.graphql
+  {
+  
+  accessToken
+  user{
+    id
+  }
+  errors{
+    field
+    message
+  }
+  
+  
+  }
+    
+}

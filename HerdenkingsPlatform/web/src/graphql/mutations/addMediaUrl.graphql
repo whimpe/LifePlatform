@@ -1,0 +1,7 @@
+mutation AddMediaUrl($paginaId:String!,$mediaUrl:String!){
+  addMediaUrl(paginaId:$paginaId, mediaUrl:$mediaUrl){
+    id
+    mediaUrl
+  }
+
+}

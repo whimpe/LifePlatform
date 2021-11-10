@@ -1,0 +1,22 @@
+
+mutation createLevenstijdlijnBetaling(
+  
+  $public_token: String!
+ 
+  $payment_term:Float!
+  $payment_plan:Float!
+  
+
+) {
+  createLevenstijdlijnBetaling(
+    public_token: $public_token  
+    payment_plan:$payment_plan
+    payment_term:$payment_term
+
+  )
+   {
+    pay_id
+    pay_link
+    
+  }
+}

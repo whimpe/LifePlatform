@@ -1,0 +1,20 @@
+query herinneringen_gallerij(
+  $limit: Int!
+  $cursor: String
+  $paginaId: String!
+) {
+  herinneringen_gallerij(cursor: $cursor, limit: $limit, paginaId: $paginaId) {
+    mediaHerinneringen {
+      id
+      createdAt
+      herinneringId
+      urlFile     
+      mediaType
+      creator {
+        username
+      }
+    }
+
+    hasMore
+  }
+}

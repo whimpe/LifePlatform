@@ -1,0 +1,4 @@
+mutation DeleteHerinnering($id: String!,$paginaId:String! ){
+  deleteHerinnering(id:$id,paginaId:$paginaId)
+  
+}

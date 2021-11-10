@@ -1,0 +1,22 @@
+query Condolaties_Demo($paginaId:String!,$limit: Int!, $cursor: String) {
+  condolaties_demo(paginaId:$paginaId,cursor: $cursor, limit: $limit) {
+    hasMore
+
+    condolaties {
+      id
+      text
+      createdAt
+
+      creator {
+        username
+      }
+
+      media {
+        id
+        urlFile
+        
+        mediaType
+      }
+    }
+  }
+}

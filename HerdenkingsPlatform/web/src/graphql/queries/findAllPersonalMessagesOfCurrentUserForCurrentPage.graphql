@@ -1,0 +1,18 @@
+query FindAllPersonalMessagesOfCurrentUserForCurrentPage($paginaId:String!){
+  findAllPersonalMessagesOfCurrentUserForCurrentPage(paginaId:$paginaId){
+    id
+    title
+    text
+    dateAvailable
+    media {
+        urlFile       
+        mediaType
+        id        
+        creatorId
+        
+        
+    }
+    updatedAt
+    createdAt
+  }
+}

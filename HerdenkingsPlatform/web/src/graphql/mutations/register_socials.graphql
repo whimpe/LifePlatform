@@ -1,0 +1,13 @@
+# mutation Register_socials(
+#   $access_token: String!
+#   $socialId: String!
+#   $type_of_social: String!
+# ) {
+#   register_socials(
+#     access_token: $access_token
+#     socialId: $socialId
+#     type_of_social: $type_of_social
+#   ) {
+#     ...RegularUserResponse
+#   }
+# }

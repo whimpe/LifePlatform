@@ -1,0 +1,3 @@
+mutation Invite_people( $email: String!,$username: String! ,$public_token: String! ) {
+  Invite_people( email: $email, username: $username ,public_token: $public_token ) 
+},

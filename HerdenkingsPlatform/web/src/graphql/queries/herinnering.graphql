@@ -1,0 +1,33 @@
+query Herinnering($id: String!,$paginaId:String!) {
+  herinnering(id: $id,paginaId:$paginaId) {
+    id
+    title
+    text
+    categorie
+    status
+    on_timeline
+    datumVanHerinnering
+    
+    creator {
+      id
+      username
+    }
+    media {
+      id
+      text
+      title
+      urlFile
+      mediaType
+      
+    }
+    comments {
+      id
+      comment
+      createdAt
+      creator{
+        id
+        username
+      }
+    }
+  }
+}

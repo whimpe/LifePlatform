@@ -1,0 +1,8 @@
+mutation ChangeStatusAccessRequest($paginaId:String!,$id: String!,$status:Float!) {
+  changeStatusAccessRequest(paginaId:$paginaId,id:$id,status:$status) {
+    id
+    status
+    requestorId
+    
+  }
+}

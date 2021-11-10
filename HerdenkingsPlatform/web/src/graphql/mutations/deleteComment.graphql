@@ -1,0 +1,3 @@
+mutation DeleteComment($paginaId:String!,$id: String!) {
+  deleteComment(paginaId:$paginaId,id:$id) 
+}

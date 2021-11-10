@@ -1,0 +1,487 @@
+@import '_base.scss';
+@import 'modal_designs.scss';
+
+/* Personal message Section*/
+.personal_message_container {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	margin-left: auto;
+	margin-right: auto;
+  }
+  
+  .personal_message_columns {
+    max-width: 60%;
+	
+    text-align: center;
+	flex: 1 0 auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 25px;
+	margin-top: 25px;
+	@media (max-width: 550px) {
+		max-width: 100%;
+		
+	}
+}
+
+.stackgrid_personal_message_box{
+	border-width: 0.2px;
+	padding: 20px;
+	margin: 30px 0 60px 0;
+	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+	// border-radius: 20px;
+	// box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+	height: auto;
+	overflow: hidden;	  
+	width: auto;
+	&:hover{
+    // transform: scale(1.05);
+    // transition: all 0.4s ease-out;	
+}}
+
+.mediaview_personal_message{
+	width: 100%;
+	max-height: 50vh;
+	object-fit: cover;
+}
+
+.stackgrid_personal_message_title{
+	font-family:$ivypresto-display;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 26px;
+	line-height: 140%;
+	letter-spacing: 0.2px;
+	color: $black-dark;
+	// padding: 16px 30px;
+	@media (max-width: 768px) {
+		font-size: 20px;
+	}
+
+}
+.stackgrid_personal_message_text{
+	// width: 80%;
+	font-family: $gibson;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 160%;
+	color: $main-TextColor;
+	@media (max-width: 768px) {
+
+		font-size: 12px;
+	}
+}
+
+.personal_message_date{
+	flex-direction: column;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	font-size: 18px;	
+	margin: 20px;
+	@media (max-width: 768px) {	font-size: 16px;}
+}
+
+
+.personal_message_button{
+	display: flex;
+	flex-direction: row;
+	margin: 40px auto;
+	padding: 20px ;
+	width:fit-content ;
+	background:var(--secondary-color);
+	color:$main-TextColor;	
+	outline: none;
+	font-family: $gibson;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 100%;
+	letter-spacing: 0.005em;
+	&:hover{
+	cursor: pointer;
+	background-color: var(--primary-color);
+	transition: all ease-in-out 0.3s;
+	transform: scale(1.1);
+	}
+}
+.personal_message_button_noview{
+	@extend .personal_message_button;
+	opacity: 0.7;
+	&:hover{
+		cursor: pointer;
+		background-color: var(--primary-color);
+		transition: all ease-in-out 0.3s;
+		transform: scale(1.0);
+		}
+}
+
+.personal_message_icon_btn{
+	margin: 0 10px;
+}
+.personal_message_box{
+	flex-direction: column;
+	display: flex;
+	align-items: center;
+	height: auto;
+	width:100%;
+	border: 1px solid lightgrey;
+	border-radius: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.personal_message_img{
+	border-radius: 10px;
+	
+}
+
+//create personal message
+
+.create_pm_container{
+	display: flex;
+	position: relative;
+	flex-direction: column;
+	padding: 25px;
+	margin-left: auto;
+	margin-right: auto;
+	height: fit-content;
+	margin-top: 25px;
+	margin-bottom: 50px;
+	width: 80%;
+	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;	
+	border-radius: 20px;
+	@media (max-width: 500px) {
+	width: 100%;
+	padding-left: 10px;
+	padding-right: 10px;
+	}
+	
+}
+//add people modal
+.subscript_login{
+	font-family: 'cinzel';
+	font-size: 14px;
+}
+.subscript_login:hover{
+	font-family: 'cinzel';
+	font-size: 14px;
+	color: #bdb486;
+}
+
+.add_people_icon{
+	margin-right: 10px;
+	margin-top: 3px;
+}
+
+.modal_add_people_btn{
+	display: flex;
+	flex-direction: row;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	color:#fff;
+	background-color: darkgrey;
+	width: fit-content;
+	padding: 10px 20px;
+	font-weight: 600;
+	border-radius: 20px;
+	font-size: 16px;
+	outline:none;	
+	@media (max-width: 600px) {
+		font-size: 14px;
+		}
+
+}
+
+.modal_add_people_btn:hover{
+	background-color: #414F12;
+	color: #fff;
+	transform: scale(1.05);
+	transition: all ease-in-out 0.3s;
+}
+
+.save_add_people_btn{
+	display: flex;
+	flex-direction: row;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 25px;
+	color:#fff;
+	background-color: #bdb486;
+	width: fit-content;
+	padding: 10px 20px;
+	font-weight: 600;
+	border-radius: 20px;
+	font-size: 16px;
+	
+	@media (max-width: 600px) {
+		font-size: 14px;
+		}
+
+}
+
+.save_add_people_btn:hover{
+	background-color: #fff;
+	color: #414F12;
+	border: 1px solid #414F12;
+	transform: scale(1.05);
+	transition: all ease-in-out 0.3s;
+}
+
+//Edit personal message
+
+.edit_personal_message_container{
+	padding: 0 0 40px 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.edit_personal_message_header{
+	color:$main-TextColor;
+	font-family: $ivypresto-display;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 26px;
+	line-height: 140%;
+	/* or 36px */
+	text-align: center;
+	letter-spacing: 0.2px;
+	margin: 20px auto;
+	@media screen and (max-width: 768px) {
+	  font-size: 20px;
+	}
+	@media screen and (max-width: 450px) {
+	  font-size: 18px;
+	}
+  
+  }
+
+.edit_personal_message_text_container{
+	width: 70%;
+	max-width: 800px;
+	@media screen and (max-width:668px) {
+		width: 90%;
+	}
+  }
+
+
+  .edit_personal_message_title{
+	background: #FFFFFF;
+	box-sizing: border-box;
+	color:$main-TextColor;
+	font-family: $ivypresto-display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 100%;
+	display: flex;
+	align-items: center;
+	padding: 5px;	  
+	width: 100%;
+	height: 25px;		
+    border: 1px solid $grey-dark;
+	&:focus{
+		border: 1px solid var(--primary-color);
+		outline:none;
+	}	
+  }
+
+.edit_personal_message_text{
+	background: #FFFFFF;
+	border: 1px solid $grey-dark;
+	box-sizing: border-box;
+	color:$main-TextColor;
+	font-family: $gibson;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 100%;
+	display: flex;
+	align-items: center;
+	padding: 5px;
+	height: 500px;		
+	font-weight: 250;
+	line-height: 140%;
+	width: 100%;
+	&:focus{
+		border: 1px solid var(--primary-color);
+		outline:none;
+	}	
+
+  }
+
+  .edit_personal_message_main_title{
+	color:$main-TextColor;
+	font-family: $ivypresto-display;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 32px;
+	line-height: 140%;
+	/* or 36px */
+	text-align: center;
+	letter-spacing: 0.2px;
+	margin: 25px auto;
+	
+  }
+  
+
+  .edit_personal_message_btn{
+	display: flex;
+	flex-direction: row;
+	margin: 15px auto;
+	padding: 20px ;
+	width:fit-content ;
+	background:var(--secondary-color);
+	color:$main-TextColor;
+	border: none;
+	outline: none;
+	font-family: $gibson;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 100%;
+	letter-spacing: 0.005em;
+	&:hover{
+		cursor: pointer;
+		background-color: var(--primary-color);
+		transition: all ease-in-out 0.3s;
+		transform: scale(1.1);
+	}
+}
+
+.edit_personal_message_btn_icon{
+		margin: 0 10px
+	}
+
+.edit_personal_message_date_container{
+	display: flex;
+	flex-direction: row;
+	margin: 0 auto;
+	// margin: auto 25px;
+}
+
+.personal_message_contact_table{
+	// justify-content: center;
+	width: 100%;
+}
+
+.personal_message_name_container{
+	// padding: 15px 30px;
+	width: 40%;
+	height: 50px;
+	align-items:center;
+	justify-content: center;
+	margin: auto auto;
+	font-size: 25px;
+	color: $main-TextColor;
+	font-family: $ivypresto-display;
+	/* box */
+	background: #FFFFFF;
+	border: 1px solid $grey-dark;
+	box-sizing: border-box;
+	letter-spacing: 0.2px;
+	color: #191919;
+}
+
+.personal_message_contact_icon{
+	margin: auto;
+	width: 100%;
+	
+}
+
+.personal_message_email_container{
+	padding: 0 10px;
+	width: 40%;
+	height: 50px;
+	// display: flex;
+	// align-items: center;
+	/* box */
+	background: #FFFFFF;
+	border: 1px solid $grey-dark;
+	box-sizing: border-box;
+	letter-spacing: 0.2px;
+	color: $main-TextColor;
+}
+
+.personal_message_contact_name{
+	font-family:$ivypresto-display;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 26px;
+	line-height: 140%;
+	padding: 15px; 
+
+}
+.personal_message_contact_text_container{
+	height: 50px;
+	padding: 15px; 
+	width: 40%;
+	font-family: $gibson;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 100%;
+	align-items: center;
+	color: #282C38;
+	/*box*/
+	background: #FFFFFF;
+	border: 1px solid $grey-dark;
+	box-sizing: border-box;
+
+}
+.personal_message_contact_status_container{
+	background-color: var(--secondary-color);
+	width: 30%;
+	height: 50px;
+	font-family: $gibson;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 120%;
+	// display: flex;
+	align-items: center;
+	letter-spacing: 0.1em;
+	color: $main-TextColor;
+	padding: 0 10px;
+
+}
+
+.personal_message_contact_table_input{
+	// @extend %margins-dashboard;
+    width: 70%;
+    max-width: 500px;	 
+	display: flex;
+	flex-direction: column;
+	margin: 25px auto;
+	justify-content: center;
+	align-items: center;
+
+
+}
+.personal_message_add_email_box{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+.personal_message_add_receiver{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 60%;
+	// margin: 20px 0 ;
+
+}
+.personal_message_add_receiver_btn{
+	@extend .edit_personal_message_btn;
+	background-color: var(--primary-color);
+	width: auto;
+	margin: 0 0 0 10px;
+
+}

@@ -1,0 +1,7 @@
+# mutation UpdateMediaCondolatie(
+
+# $title: String!
+# $id: Int!
+# ){
+#   updateMediaCondolatie(id:$id, title:$title)
+# }

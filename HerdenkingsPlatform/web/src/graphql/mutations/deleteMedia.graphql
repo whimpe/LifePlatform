@@ -1,0 +1,3 @@
+mutation DeleteMedia($id: String!,$paginaId:String!) {
+  deleteMedia(id: $id,paginaId:$paginaId)
+}

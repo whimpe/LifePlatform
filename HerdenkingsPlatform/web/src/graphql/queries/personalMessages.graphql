@@ -1,0 +1,36 @@
+query PersonalMessages($paginaId:String!,$limit: Int!, $cursor: String) {
+  personalMessages(paginaId:$paginaId,cursor: $cursor, limit: $limit) {
+    PersonalMessages{
+      id
+      text
+      title
+      paginaId
+      dateAvailable
+      
+      media {
+        text
+        title
+        urlFile
+       
+        mediaType
+        id
+        creatorId
+        
+        createdAt
+        updatedAt
+        creator {
+          username
+        }
+        comments{
+          id
+        }
+      }
+      createdAt
+      updatedAt
+
+      
+    }
+
+    hasMore
+  }
+}

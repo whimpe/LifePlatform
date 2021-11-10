@@ -1,0 +1,7 @@
+# mutation UpdateMediaPersonalMessage(
+
+# $title: String!
+# $id: Int!
+# ){
+#   updateMediaPersonalMessage(id:$id, title:$title)
+# }

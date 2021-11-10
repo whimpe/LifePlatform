@@ -1,0 +1,4 @@
+query GetMollieSubscriptions($public_token:String!) {
+  getMollieSubscriptions(public_token:$public_token) 
+    
+}

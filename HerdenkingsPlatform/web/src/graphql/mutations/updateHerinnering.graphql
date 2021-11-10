@@ -1,0 +1,27 @@
+mutation UpdateHerinnering(
+  
+  $text: String
+  $title: String!
+  $categorie: Float
+  $datumVanHerinnering:DateTime
+  $id: String!
+  $paginaId:String!
+  $ontimeline:Boolean
+  $status:Float
+
+) {
+  updateHerinnering(
+    text: $text
+    id: $id
+    title: $title
+    categorie: $categorie
+    datumVanHerinnering:$datumVanHerinnering
+    ontimeline: $ontimeline
+    status:$status
+    paginaId:$paginaId
+    
+  ) {
+    id
+    text
+  }
+}

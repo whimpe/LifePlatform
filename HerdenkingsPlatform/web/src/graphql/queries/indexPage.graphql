@@ -1,0 +1,23 @@
+query IndexPage($public_or_private_token:String!){
+    indexPage(public_or_private_token:$public_or_private_token){
+        accessLevel
+        herdenkingspagina{
+            id
+            mediaUrl
+            name_of_page
+            text
+            DoB
+            DoD
+            condoleance_active
+            shareable
+            accessible
+            control_before
+            number_of_people
+            Payment_plan
+            DesignType
+        }
+        privaat_of_publiek
+        accessToken
+        
+    }
+}

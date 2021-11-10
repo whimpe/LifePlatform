@@ -1,0 +1,23 @@
+mutation updatePersonalMessage(
+  
+  $id: String!
+  $title: String!
+  $text: String!
+  $dateAvailable:DateTime!
+  $paginaId:String!
+
+) {
+  updatePersonalMessage(
+    id: $id
+    title: $title
+    text: $text
+    dateAvailable: $dateAvailable   
+    paginaId:$paginaId
+    
+  ) {
+    id
+    title
+    text
+    dateAvailable
+  }
+}

@@ -1,0 +1,3 @@
+mutation VerifyPartner($partnerId: String!) {
+  verifyPartner(partnerId:$partnerId)
+}

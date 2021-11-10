@@ -1,0 +1,3 @@
+# mutation DeleteMediaCondolatie($id: Int!) {
+#   deleteMediaCondolatie(id: $id)
+# }

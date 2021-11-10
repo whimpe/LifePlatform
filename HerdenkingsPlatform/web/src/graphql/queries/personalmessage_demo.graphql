@@ -1,0 +1,34 @@
+query PersonalMessage_demo($id: String!,$paginaId:String!) {
+  personalmessage_demo(id: $id,paginaId:$paginaId) {
+    id
+    title
+    text
+    # dateAvailable
+    # categorie
+    # intieme_kring
+    # prive
+    # on_timeline
+    dateAvailable
+    
+    # creator {
+    #   id
+    #   username
+    # }
+    media {
+      id
+      text
+      title
+      urlFile
+      mediaType   
+      objectSize   
+    }
+    # comments {
+    #   id
+    #   comment
+    #   creator{
+    #     id
+    #     username
+    #   }
+    # }
+  }
+}

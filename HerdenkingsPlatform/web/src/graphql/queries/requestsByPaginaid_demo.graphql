@@ -1,0 +1,14 @@
+query RequestsByPaginaId_Demo($paginaId:String!){
+  requestsByPaginaId_demo(paginaId:$paginaId){
+    id
+    requestorId
+    paginaId    
+    requesttext
+    status
+    requestor{
+      username
+      id
+    }
+   
+  }
+}

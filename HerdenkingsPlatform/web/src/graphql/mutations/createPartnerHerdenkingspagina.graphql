@@ -1,0 +1,23 @@
+mutation CreatePartnerHerdenkingspagina(
+  $input: HerdenkingsPaginaInput!
+  $partner_name: String!
+  $partner_email: String!
+  $partner_type: Float!
+  $DoD: DateTime  
+  $info_administrator:UsernamePasswordInput 
+) {
+  createPartnerHerdenkingspagina(input: $input,partner_name:$partner_name,partner_email:$partner_email,partner_type:$partner_type ,DoD: $DoD, info_administrator:$info_administrator) {
+    errors {
+      field
+      message
+    }
+    accessToken
+    herdenkingspagina {
+      id
+      name_of_page
+      owner {
+        id
+      }
+    }
+  }
+}

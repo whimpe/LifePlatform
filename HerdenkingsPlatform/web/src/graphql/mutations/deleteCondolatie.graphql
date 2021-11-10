@@ -1,0 +1,4 @@
+mutation DeleteCondolatie($id: String!,$paginaId:String! ){
+  deleteCondolatie(id:$id,paginaId:$paginaId)
+  
+}

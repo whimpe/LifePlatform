@@ -1,0 +1,12 @@
+mutation FacebookLogin($accessToken: String!, $userID: String!) {
+  facebookLogin(accessToken: $accessToken, userID: $userID) {
+    user {
+      id
+    }
+    errors {
+      field
+      message
+    }
+    accessToken
+  }
+}

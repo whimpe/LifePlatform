@@ -1,0 +1,37 @@
+query Herinneringen_Demo($limit: Int!, $cursor: String,$paginaId: String!) {
+  herinneringen_demo(cursor: $cursor, limit: $limit, paginaId:$paginaId) {
+    herinneringen{
+      id
+      text
+      title
+      categorie
+      datumVanHerinnering
+      status
+      
+      createdAt
+      creator{
+        username
+      }
+
+      media {
+        text
+        title
+        urlFile        
+        mediaType
+        creator {
+          username
+        }
+      }
+      comments {
+        id
+        comment
+        creator{
+        id
+        username
+      }
+      }
+    }
+
+    hasMore
+  }
+}

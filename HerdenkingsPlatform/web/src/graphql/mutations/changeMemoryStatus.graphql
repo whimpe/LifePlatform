@@ -1,0 +1,7 @@
+mutation ChangeMemorsdqfyStatus($id:String!,$status:Float!,$paginaId:String!){
+  changeMemoryStatus(id:$id,status:$status,paginaId:$paginaId){
+    id    
+    status
+    on_timeline
+  }
+}

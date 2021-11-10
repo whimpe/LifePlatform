@@ -1,0 +1,13 @@
+mutation UpdateCondolatie($text: String!, $id: String! ,$paginaId:String!){
+  updateCondolatie(text:$text, id:$id,paginaId:$paginaId)
+  {id
+  text
+  creatorId  
+  createdAt
+  updatedAt
+  textSnippet
+  creator{
+    id
+    username
+  }}
+}

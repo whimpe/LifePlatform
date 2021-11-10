@@ -1,0 +1,13 @@
+mutation CreateMediaCondolatie($condolatieId: String!,$input: MediaInput!,$paginaId:String!){
+  createMediaCondolatie(condolatieId:$condolatieId,input:$input,paginaId:$paginaId)
+  {
+    id
+    title
+    urlFile
+    creator{
+      id
+    username
+    }
+    
+  }
+}

@@ -1,0 +1,8 @@
+mutation Feedback( $userId: String!,$feedback: String!
+) {
+  feedback(
+    userId: $userId
+    feedback: $feedback
+    
+  ) 
+}
