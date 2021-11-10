@@ -1,0 +1,17 @@
+mutation Digitize_request(
+  $name: String!
+  $email: String!
+  $tel: String!
+  $address: String!
+  $boodschap: String!
+
+) {
+  digitize_request(
+    name: $name
+    email: $email
+    tel: $tel
+    address: $address
+    boodschap:$boodschap
+  ) 
+}
+

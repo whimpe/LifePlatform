@@ -1,0 +1,7 @@
+# mutation UpdateMediaHerinnering(
+
+# $title: String!
+# $id: Int!
+# ){
+#   updateMediaHerinnering(id:$id, title:$title)
+# }

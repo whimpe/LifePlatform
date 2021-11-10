@@ -1,0 +1,9 @@
+mutation CreateAccesRequest($paginaId:String!,$requestor_username:String!, $requesttext:String!){
+  createAccessRequest(paginaId:$paginaId,requestor_username:$requestor_username,requesttext:$requesttext){
+    id
+    requestorId
+    paginaId
+    requesttext
+    
+  }
+}

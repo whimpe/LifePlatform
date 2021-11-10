@@ -1,0 +1,11 @@
+mutation CreateCommentHerinnering($herinneringId:String!, $comment:String!,$paginaId:String!){
+  createCommentHerinnering(herinneringId:$herinneringId, comment:$comment,paginaId:$paginaId)
+  {
+    id
+    comment
+    creator
+    {
+      username
+    }
+  }
+}

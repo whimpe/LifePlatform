@@ -1,0 +1,38 @@
+query HerinneringenByDate_demo(
+  $paginaId: String!
+) {
+  herinneringenByDate_demo(
+    paginaId: $paginaId
+  ) {
+    
+     
+      id
+      text
+      title
+      categorie
+      status
+      datumVanHerinnering
+      createdAt
+      creator {
+        username
+      }
+      media {
+        text
+        title
+        urlFile      
+        mediaType
+        creator {
+          username
+        }
+      }
+      comments {
+        id
+        comment
+        creator {
+          id
+          username
+        }
+      }
+    
+  }
+}

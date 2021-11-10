@@ -1,0 +1,12 @@
+mutation GoogleLogin($googleId: String!) {
+  googleLogin(googleId: $googleId) {
+    user {
+      id
+    }
+    errors {
+      field
+      message
+    }
+    accessToken
+  }
+}

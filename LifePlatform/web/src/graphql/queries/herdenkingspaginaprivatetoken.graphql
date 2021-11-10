@@ -1,0 +1,42 @@
+
+query Herdenkingspaginaprivatetoken($paginaId: String!){
+  herdenkingspaginaprivatetoken(paginaId:$paginaId){
+  id
+  name_of_page
+  DoB
+  DoD
+  Payment_plan
+  Payment_status
+	condoleance_active
+  control_before
+  shareable
+  accessible
+  createdAt
+  owner{
+    username
+    id
+  }
+    mediaUrl
+    text
+    private_token
+    ValidUntil
+   
+    
+    number_of_memories
+
+   
+    number_of_personal_messages
+    number_of_messages
+    
+   
+    number_of_condolances
+
+    
+    number_of_media
+
+   
+    number_of_people
+    number_of_bytes
+  }
+}
+  

@@ -1,0 +1,12 @@
+query PersonalMessagesAccessForCurrentPage($paginaId:String!){
+    personalMessagesAccessForCurrentPage(paginaId:$paginaId){
+id      
+personalMessageId      
+userThatHasAccess{
+  email
+  id  
+  username
+  
+}
+    }
+}

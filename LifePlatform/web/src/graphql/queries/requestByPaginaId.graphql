@@ -1,0 +1,15 @@
+query RequestsByPaginaId($paginaId:String!){
+  requestsByPaginaId(paginaId:$paginaId){
+    id
+    requestorId
+    paginaId    
+    requesttext
+    status
+    requestor{
+      username
+      email
+      id
+    }
+   
+  }
+}

@@ -1,0 +1,7 @@
+query CheckBetaling($redis_payment_mollie_id:String!){
+checkBetaling(redis_payment_mollie_id:$redis_payment_mollie_id)
+{
+    status
+    aantal_dagen
+}
+}

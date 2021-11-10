@@ -1,0 +1,4 @@
+mutation RequestToVerifyAccount($email: String! )  {
+     requestToVerifyAccount(email: $email)
+  
+}

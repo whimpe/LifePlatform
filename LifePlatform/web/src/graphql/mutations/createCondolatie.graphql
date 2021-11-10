@@ -1,0 +1,12 @@
+mutation CreateCondolatie($paginaId:String!,$input: CondolatieInput!){
+  createCondolatie(paginaId:$paginaId,input:$input)
+  {id
+  text
+  createdAt
+  updatedAt
+  textSnippet
+  creator{
+    id
+    username
+  }}
+}

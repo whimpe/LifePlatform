@@ -1,0 +1,9 @@
+# mutation Login_google($access_token: String!) {
+  
+# login_google(access_token: $access_token) #different way than register.graphql
+#   {
+#   ...RegularUserResponse
+# }
+  
+  
+# }

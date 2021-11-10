@@ -1,0 +1,17 @@
+mutation Register_Partner($options: UsernamePasswordInput! , $partner_type: Float!, $partnerdata: PartnerDataInput!) {
+      register_partner(options: $options, partner_type:$partner_type,partnerdata:$partnerdata) #different way than register.graphql
+  {
+  
+  accessToken
+  user{
+    id
+  }
+  errors{
+    field
+    message
+  }
+  
+  
+  }
+    
+}

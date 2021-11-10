@@ -1,0 +1,11 @@
+# mutation CreateCommentMedia($mediaId:String!, $comment:String!){
+#   createCommentMedia(mediaId:$mediaId, comment:$comment)
+#   {
+#     id
+#     comment
+#     creator
+#     {
+#       username
+#     }
+#   }
+# }

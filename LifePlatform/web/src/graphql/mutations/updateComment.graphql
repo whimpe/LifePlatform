@@ -1,0 +1,3 @@
+mutation UpdateComment($paginaId:String!,$id: String!,$comment: String!) {
+  updateComment(paginaId:$paginaId,id:$id, comment:$comment) 
+}

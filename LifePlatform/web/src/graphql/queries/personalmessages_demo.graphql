@@ -1,0 +1,16 @@
+query PersonalMessages_demo($paginaId:String!){
+  personalmessages_demo(paginaId:$paginaId){
+    id
+    title
+    text
+    dateAvailable
+    media {
+        urlFile       
+        mediaType
+        id        
+        creatorId                
+    }
+    updatedAt
+    createdAt
+  }
+}

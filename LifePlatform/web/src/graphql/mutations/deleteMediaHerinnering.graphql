@@ -1,0 +1,4 @@
+# mutation DeleteMediaHerinnering($id: Int!) {
+#   deleteMediaHerinnering(id: $id)
+# }
+# # 

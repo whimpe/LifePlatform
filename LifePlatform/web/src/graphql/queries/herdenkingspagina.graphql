@@ -1,0 +1,31 @@
+query Herdenkingspagina($paginaId: String!) {
+  herdenkingspagina(paginaId: $paginaId) {
+    id
+    name_of_page
+    condoleance_active
+    shareable
+    accessible
+    control_before
+    DesignType
+    DoB
+    DoD #@ ??? alleen opvragen als type_of_page = ""Herdenkinsgâgina
+    ValidUntil
+    
+    owner {
+      username
+      id
+    }
+    mediaUrl
+    text
+    number_of_memories
+    Payment_plan
+    Payment_status
+   
+    number_of_personal_messages
+    number_of_messages   
+    number_of_condolances   
+    number_of_media
+    number_of_people
+    number_of_bytes
+  }
+}

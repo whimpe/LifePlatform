@@ -1,0 +1,4 @@
+mutation DeletePersonalMessageAccess($userThatHasAccessId: String!,$personalMessageId:String!,$paginaId:String! )
+{
+  deletePersonalMessageAccess(userThatHasAccessId:$userThatHasAccessId,personalMessageId:$personalMessageId,paginaId:$paginaId)
+}

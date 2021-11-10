@@ -1,0 +1,19 @@
+mutation CreateHerdenkingspagina(
+  $input: HerdenkingsPaginaInput!
+  $DoD: DateTime
+) {
+  createHerdenkingspagina(input: $input, DoD: $DoD) {
+    errors {
+      field
+      message
+    }
+    accessToken
+    herdenkingspagina {
+      id
+      name_of_page
+      owner {
+        id
+      }
+    }
+  }
+}

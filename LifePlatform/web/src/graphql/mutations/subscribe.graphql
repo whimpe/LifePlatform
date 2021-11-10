@@ -1,0 +1,15 @@
+mutation Subscribe(
+  $name: String!
+  $email: String!
+  $tel: String!
+  $boodschap: String!
+
+) {
+  subscribe(
+    name: $name
+    email: $email
+    tel: $tel
+    boodschap:$boodschap
+  ) 
+}
+

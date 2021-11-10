@@ -1,0 +1,8 @@
+mutation CreatePersonalMessage($input:PersonalMessageInput!,$paginaId:String!){
+  createPersonalMessage(input: $input,paginaId:$paginaId){
+    id
+    title
+    paginaId
+    
+  }
+}

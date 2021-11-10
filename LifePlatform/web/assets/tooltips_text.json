@@ -1,0 +1,25 @@
+{
+    "activate_condolances": {
+
+        "text": "Als je dit activeert, kunnen mensen hun condolaties achterlaten"
+
+    },
+
+    "explain_control_before":{
+    "text":"Als je dit activeert, worden alle gedeelde herinneringen en foto's eerst op prive gezet."
+    },
+
+    "explanation_authors": {
+
+        "text": "De auteurs van een levenstijdlijn zijn personen die geinterageerd hebben met de tijdlijn. De eigenaar en de medebeheerders kunnen beheren wie er allemaal op de pagina terecht kan en welke machtigingen zij hebben."
+
+    },
+    "explanation_direct-indirect": {
+
+        "text": "Via de directe link zullen mensen onmiddelijk de herinneringen kunnen bekijken, via de indirecte link zullen de beheerders eerst de persoon moeten goedkeuren voor die herinneringen ne berichten kan zien. Deel dus uitvoorzorg de directe link enkel persoonlijk"
+
+    }
+
+    
+   
+}

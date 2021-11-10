@@ -1,0 +1,1210 @@
+
+//MODAL ADD MEDIA 
+@import '_base.scss';
+////////////////////////////
+/////////////////////////
+// NIEUWE STYLING
+////////////////////////////
+/////////////////////////
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+
+.close_btn_container{
+  // width: 100%;
+  // height: fit-content;
+  color: var(--primary-color);
+  // background-color: #414F12;
+  // z-index: 1;
+  // float: right;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+
+}
+.flashcard_title{
+  color:$main-TextColor;
+  font-family: $ivypresto-display;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 140%;
+  /* or 36px */
+  text-align: center;
+  letter-spacing: 0.2px;
+  margin: 0px auto;
+  @media screen and (max-width: 768px) {
+    font-size: 20px;
+  }
+  @media screen and (max-width: 450px) {
+    font-size: 18px;
+  }
+
+}
+.flashcard_label{
+  width:100%;
+  font-family: $gibson;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  margin: 16px 0px ;
+
+  @media screen and (max-width: 768px) {
+    font-size: 14px;
+  }
+  @media screen and (max-width: 450px) {
+    font-size: 14px;
+    margin: 8px 0px ;
+
+  }
+
+}
+.verify_label{
+  @extend .flashcard_label;
+  text-align: center;
+}
+.flashcard_title_input{
+	outline: none;
+	background: #FFFFFF;
+	border: 1px solid #D0D0D0;
+	box-sizing: border-box;
+	width: auto;	
+	color:$main-TextColor;
+  font-family: $ivypresto-display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 100%;
+	display: flex;
+	align-items: center;
+	padding: 5px;
+  width: 100%;
+  @media screen and (max-width: 768px) {
+    font-size: 18px;
+  }
+  @media screen and (max-width: 450px) {
+    font-size: 16px;
+  }
+
+  }
+  .flashcard_message_input{
+	@extend .flashcard_title_input;
+  font-family: $gibson;
+  font-size: 16px;
+	height: 40px;	
+  width: 100%;
+	font-weight: 400;
+	line-height: 140%;
+  @media screen and (max-width: 450px) {
+    font-size: 14px;
+  }
+
+  }
+.flashcard_text_container{
+  padding: 0px 72px;
+  width: inherit;
+  @media (max-width: 768px) {
+    padding: 0px 32px;
+  }
+  @media (max-width: 450px) {
+    padding: 0px 12px;
+  }
+  
+}
+.flashcard_btn_container{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 32px 72px;
+  margin: 10px 0;
+  @media (max-width: 1024px) {
+    padding: 10px 32px;
+   
+  }
+  @media (max-width: 768px) {
+    padding: 5px 12px;
+    margin: 0 auto;
+    justify-content: center;
+    flex-direction: column;
+    bottom: 0;
+    
+  }
+
+}
+.flashcard_btn_container_pay{
+  @extend .flashcard_btn_container;
+  @media (min-width: 1024px) {
+    padding: 10px 72px;
+  }
+}
+.flashcard_add_media_btn_container{
+  display: flex;
+  justify-content: center;
+
+  margin: 20px auto;
+
+}
+.flashcard_options_container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 10px 32px;
+  width: inherit;
+  @media (max-width: 768px) {
+    padding: 10px 10px;
+    flex-direction: column;
+  }
+  @media (max-width: 450px) {
+    padding: 5px 0px;
+  }
+}
+.flashcard_edit_options_container{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin: 0 ;
+  padding: 10px 32px;
+  width: auto;
+  max-width: 200px;
+  @media (max-width: 450px) {
+    padding: 5px 0px;
+    flex-direction: column;
+  }
+
+}
+.flashcard_options_container_2{
+  @extend .flashcard_options_container;
+  justify-content: flex-start;
+  @media (max-width: 768px) {
+    justify-content: center;
+  }
+
+
+}
+.flashcard_options_box{
+  display: flex;
+  flex-direction: column;
+  margin: 0 25px;
+
+}
+.flashcard_container{
+  display: flex;
+  flex-direction: column;
+  margin: 20px 62px;
+  @media (max-width:1024px){
+    margin: 10px 30px;
+    }
+  @media (max-width:768px){
+  margin: 5px 10px;
+  }
+
+}
+.flashcard_container_media{
+  @extend .flashcard_container;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  position: relative;
+  height: inherit;
+  
+
+}
+.flashcard_inspiration_btn{
+  background-color:$green-extra-light ;
+  outline:none;
+  padding: 15px 30px;
+  display: flex;
+  flex-direction: row;  
+  font-size: 18px;
+  justify-content: center;
+  &:hover{
+    cursor: pointer;
+    background-color:$green-light ;
+  }
+  @media (max-width:768px){
+    font-size: 16px;
+    padding: 10px 22px;
+    width: max-content;
+    margin: 10px auto;
+  }
+  @media (max-width:450px){
+    width: fit-content;
+    // padding: 10px 22px;
+    order: 2;
+
+  }
+
+}
+.flashcard_media_btn{
+  @extend .flashcard_inspiration_btn;
+  background-color: var(--secondary-color) ;
+  &:hover{
+    background-color: var(--primary-color);
+    cursor: pointer;
+  }
+  @media (max-width:450px){
+    order: 1
+  };
+}
+.flashcard_text_btn{
+  font-family: $gibson;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 100%;
+  margin: 0px 5px;
+
+  /* identical to box height, or 16px */
+  color: $main-TextColor;
+}
+.flashcard_icon_btn{
+  color: $main-TextColor;
+  margin: 0px 10px;
+
+}
+.flashcard_upload_btn_container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.flashcard_media_container{
+  @extend .flashcard_text_container;
+  display: flex;
+  flex-direction: row;
+  margin: 10px 1px;
+
+}
+.flashcard_chip_container{
+  @extend .flashcard_text_container;
+  display: flex;
+  flex-direction: row;
+}
+
+.flashcard_upload_btn{
+  padding: 30px 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background: #FAEFD6;
+  border-radius: 6px;
+  margin: 8px;
+  color: $main-TextColor;
+  font-family: $gibson;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 100%;
+  &:hover{
+    cursor: pointer;
+    background-color: var(--primary-color);
+  }
+  @media (max-width: 1024px) {
+    padding: 20px 40px;
+
+  }
+  @media (max-width: 768px) {
+    padding: 15px 30px;
+
+  }
+  @media (max-width: 450px) {
+    padding: 5px 10px;
+  }
+}
+.flashcard_upload_profile_img_btn{
+  padding: 30px 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background: #FAEFD6;
+  border-radius: 6px;
+  margin: 8px;
+  color: $main-TextColor;
+  font-family: $gibson;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 100%;
+  &:hover{
+    cursor: pointer;
+    background-color: var(--primary-color);
+  }
+  
+}
+  
+.flashcard_upload_text_btn{
+  font-family: $gibson;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 100%;
+
+  @media (max-width: 768px) {
+      font-size: 16px;
+  }
+  @media (max-width: 450px) {
+      font-size: 14px;
+  }
+}
+
+  .flashcard_upload_icon_btn{
+    font-size: 25px;
+    margin: 0 10px;
+    @media (max-width: 768px) {
+      font-size: 18px;
+  }
+  }
+.upload_media_img{
+  width: 50px;
+  height: 35px;
+  margin: 0 12px 0 0 ;
+}
+
+.upload_memory_page_img{
+  width: auto;  
+  height: 30vh;
+}
+
+.upload_media_name{
+  width: 100%;
+  font-family: $gibson;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 100%;
+  /* identical to box height, or 16px */
+  display: flex;
+  align-items: center;
+  /* Aeterna / TextColor */
+  color: $main-TextColor;
+}
+
+.upload_media_info{
+  font-family: $gibson;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 100%;
+color: $grey-dark;
+
+}
+
+.delete_cont{
+  display: flex;
+  justify-content: flex-end;
+  width: fit-content;
+  margin: 0 10px;
+  right:0;
+
+}
+
+.upload_media_text_container{
+  display: flex;
+  flex-direction: column;
+
+}
+.upload_delete_btn{
+  color: $red-dark;
+  right: 0;  
+  &:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: all ease-in-out 0.4s;
+  }
+}
+
+.upload_delete_btn_icon{
+  color: $red-dark;
+
+}
+
+
+.flashcard_category_grid { 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.flashcard_category_btn{
+  font-family: $gibson;
+  font-style: normal;
+  font-weight: 250;
+  font-size: 18px;
+  line-height: 100%;
+  color: $main-TextColor;
+  padding: 20px 26px;
+  margin:8px 10px;
+  background: $green-extra-light;
+  border: 2px solid $green-extra-light;
+  box-sizing: border-box;
+  border-radius: 6px;
+  &:hover{
+    color: #fff;
+    background: $green-dark;
+    cursor: pointer;
+  }
+  &:focus{
+    background: $green-dark;
+    color: #fff;
+  }
+  @media (max-width: 768px) {
+    padding: 10px 16px;
+    margin: 5px;
+    font-size: 16px;
+    border-radius: 12px;
+  }
+@media (max-width: 450px) {
+  padding: 5px 10px;
+  font-size: 14px;
+  border-radius: 20px;
+}
+}
+
+.flashcard_question_container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0px;
+  border: 3px dashed $green-extra-light;
+  box-sizing: border-box;
+}
+
+.flashcard_question{
+  font-family: $ivypresto-headline;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 140%;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: $main-TextColor;
+  margin: 0px 10px;
+  @media screen and (max-width: 768px) {
+    font-size: 20px;
+  }
+  @media screen and (max-width: 450px) {
+    font-size: 18px;
+  }
+}
+
+.flashcard_question_btn{
+  width: fit-content;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  padding:10px 20px;
+  margin: 20px auto 0 auto;
+  border: 1px solid var(--primary-color );
+  background-color:transparent;
+  &:hover{
+    cursor: pointer;
+    transition: all ease-in-out 0.4s;
+    background-color: var(--secondary-color);
+  }
+}
+.flashcard_question_btn_icon{
+  margin: 0 5px;
+}
+
+.flashcard_subtitle_question{
+  font-family: $gibson;
+  font-style: normal;
+  font-weight: 250;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: center;
+  color: #66A265;
+}
+.flashcard_date_container{
+	display: flex;
+	flex-direction: row;
+  justify-content: flex-start;
+  @media screen and (max-width: 450px) {
+  	margin: 10px 0;
+
+  }
+
+}
+.flashcard_date_box{
+	display: flex;
+	flex-direction: column;
+	margin: 0 25px;
+  @media screen and (max-width: 450px) {
+  	margin: 0 5px;
+
+  }
+}
+.modal {
+    display: block; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1250; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100vw; /* Full width */
+    height: 100vh; /* Full height */
+    overflow: scroll;
+
+    outline: none;
+    // background-color: rgb(0,0,0); /* Fallback color */
+    // background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    backdrop-filter: blur(40px);
+    background: rgba(0, 0, 0, 0.1); 
+    
+    //white version
+    // backdrop-filter: blur(2px) saturate(100%) contrast(45%) brightness(130%);
+    // background: rgba(0, 0, 0, 0.7);
+    transition: all ease-in-out 1s;
+
+    ::-webkit-scrollbar {
+      display: none;
+    }
+
+
+ 
+  }
+.modal_content_memory {
+    background: #FFFCFA;
+    z-index: 1251;
+    margin: 5% auto; /* 15% from the top and centered */
+ /* Could be more or less, depending on screen size */
+    width: fit-content;
+    // max-height: 90vh;
+    padding: 0 20px;
+    transition: all ease-in-out 1s;
+    animation: fadeIn 1s;
+    // overflow: hidden;
+    @media (max-width:1024px){
+      // width: 700px;
+    }
+    @media (max-width:786px){
+      // width:80%;
+    }
+    @media (max-width:500px){
+      width: 100%;
+      height: fit-content;
+      padding: 5px 0 ;
+      margin: 0;    
+    }
+  
+
+  }
+.remove_modal_content {
+    display: flex;
+    flex-direction: row;
+    background: #FFFCFA;
+    margin: 5% auto; /* 15% from the top and centered */
+    width: auto; /* Could be more or less, depending on screen size */
+    transition: all ease-in-out 1s;
+    animation: fadeIn 1s;
+    @media (max-width:1024px){
+    }
+    @media (max-width:786px){
+    }
+    @media (max-width:500px){
+      width: 100%;
+      min-height: 100%;
+      height: auto;
+      padding: 40px 0 20px 0;
+      margin: 0;
+    }
+
+  }
+.modal_content_social_share{
+      background: #FFFCFA;
+      margin: 5% auto; /* 15% from the top and centered */
+      width: fit-content; /* Could be more or less, depending on screen size */
+  
+  }
+
+
+.close_button {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    /* don't need to go crazy with z-index here, just sits over .modal-guts */
+    z-index: 3;
+    top: 5px;
+    /* needs to look OK with or without scrollbar */
+    right: 10px;
+    border: 0;
+    color:var(--primary-color); //TODO: check waarom dat kleur niet werkt misschien iets met bootstrap
+  
+}
+
+.close_button_icon{
+  color:$main-TextColor;
+  font-size: 55px;
+  font-weight: 800;
+  @media (max-width: 450px) {font-size:35px;}
+  &:hover{
+    transform: scale(1.2);
+    transition: all ease-out 0.2s;
+    cursor: pointer;
+  }
+
+}
+
+.close_btn_modal_icon{
+  &:hover{
+    transition: all ease-in-out 0.3s;
+    transform: scale(1.05);
+    cursor: pointer;
+  }
+}
+
+  
+  #aet_modal  .open-button {
+    border: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: lightgreen;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 21px;
+  }
+  
+  .modal_title_add_img{
+      text-align: center;
+      font-size: 20px;
+      margin-bottom: 20px;
+      color: #bdb486;
+      font-family: 'Cinzel';
+  
+  }
+  .memory_submit_btn{
+      display: flex;
+      font-size: 25px;
+      padding: 10px 35px;
+      border-radius: 15px;
+      margin-top: 20px ;
+      margin-bottom: 20px;
+      margin-left: auto;
+      margin-right: auto;
+      background-color: #bdb486;
+      font-family: 'Roboto';
+      width: fit-content;
+      align-content: center;
+      text-align: center;
+      color:white;
+      outline:none;
+  }
+  .memory_submit_btn:hover{
+      transform: scale(1.1);
+      transition: all ease-in-out 0.4s;
+    background-color: white;
+    color: #bdb486;
+    border: 1px solid #bdb486,
+  }
+  .social_icon_send_btn{
+  font-size: 30px;
+  margin-top: 5px;
+  
+  
+  }
+  .send_memory_btn_text{
+      margin-left: 15px;
+      font-size: 25px;
+  
+  }
+  
+  .column_flex_direction{
+      display: inline-flex;
+      flex-direction: column;
+      align-items: center;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  
+  .stackgrid_memory_elem{
+      margin-top: -20px;
+  }
+  
+  .edit_memory_title{
+      font-family: 'Cinzel';
+      text-align: center;
+  }
+  .explained_settings{
+      text-align: center;
+      color: darkgray;
+      font-size: 14px;
+      margin-top: 20px;
+  }
+  
+  .explained_title{
+      color: darkgray;
+      font-family: 'Cinzel';
+      font-size: 24px;
+      margin-bottom: 20px;
+      text-align: center;
+      @media (max-width: 500px) {
+      font-size: 20px;
+      
+      }
+  }
+  
+  .upload_herdenkingspagina{
+      display: block;
+      font-size: 20px;
+      font-family: 'Roboto';
+      padding:20px 35px;
+      border-radius: 10px;
+      margin-top: 55px;
+      margin-right: auto;
+      margin-left: auto;
+      width:fit-content ;
+      background-color: #bdb486;
+      color: white;
+      outline:none;
+  }
+  .upload_herdenkingspagina:hover{
+      background-color: #414F12;
+      color: #fff;
+      border: 1px solid #bdb486;
+      transition: all ease-in-out 0.3s;
+  }
+  
+ 
+
+
+/* The Modal (background) */
+
+
+.flashcard_btn{
+  max-width: fit-content;
+  padding: 2px 5px;
+  margin: 5px 15px;
+	font-size: 16px;
+	border-radius: 15px;
+  background:#bdb486;
+  color:#fff;
+	outline: none;
+  flex: 1 1 150px; /*  Stretching: */
+  // margin: 5px;
+}
+.flashcard_btn:hover{
+	border: 1px solid darkgray;
+	color: #fff;
+	transition: all ease-in-out 0.3s;
+	transform: scale(1.1);
+}
+
+
+@media all and (max-width: 500px) {
+  .card-list {
+    /* On small screens, we are no longer using row direction but column */
+    flex-direction: column;
+  }
+}
+
+.Lightbox_media:hover{
+  cursor: pointer;
+
+}
+
+.remove_btn_media{
+  width: fit-content;
+  margin: 5px;
+  font-size: 14px;
+  color:#fff;
+  background: darkgray;
+  border-radius: 10px;
+  outline: none;
+}
+.remove_btn_media:hover{
+  background-color: black;
+}
+
+
+.popover{
+  width: fit-content;
+  height: fit-content;
+  margin: 15px;
+}
+
+.remove_media_modal{
+  display: block; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1250; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  outline: none;
+  backdrop-filter: blur(40px);
+  background: rgba(0, 0, 0, 0.1);
+}
+
+/* Modal Content/Box */
+.remove_media_content {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto; 
+  width: fit-content;
+}
+.remove_media_container
+
+.remove_button_container_box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  margin: auto 20px;
+  background-color: #FFF;
+
+}
+
+.modal_remove_btn{
+  display: flex;
+	margin: 10px auto;
+	border: 1px solid $red-dark;
+	background-color: $red-dark;
+	color: #fff;
+	// width: fit-content;
+	padding: 10px 20px;
+	font-weight: 600;
+	border-radius: 20px;
+	font-size: 16px;
+	outline:none;
+	@media (max-width: 600px) {
+		font-size: 14px;
+		}
+	&:hover{
+  background-color: $red-dark;
+	transform: scale(1.05);
+	transition: all ease-in-out 0.3s;
+  cursor: pointer;
+}}
+
+.cancel_remove_btn{
+  @extend .modal_remove_btn;
+  background-color: #fff;
+  border: 1px solid #fff;
+	color:$main-TextColor;
+  &:hover{
+    background-color: $grey-dark;
+    color: #fff;
+
+}}
+
+.close_btn_box{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: flex-end;
+}
+.close_btn_icon{
+  margin: 10px;
+  font-size: 18px;
+  &:hover{
+    cursor:pointer;
+    transition: all ease-in-out 0.4s;
+    transform: scale(1.1);
+
+  }
+
+}
+
+
+
+//login_modal
+
+.login_modal {
+  display: block; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1250; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  outline: none;
+  backdrop-filter: blur(10px);
+  background: rgba(0, 0, 0, 0.001);
+  // background-color: rgb(0,0,0); /* Fallback color */
+  // background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+
+      //white version
+  // backdrop-filter: blur(2px) saturate(100%) contrast(45%) brightness(130%);
+  // background: rgba(0, 0, 0, 0.7);
+}
+
+.login_modal-content{
+  background-color: #fff;
+  margin: 25px auto; /* 15% from the top and centered */
+  width: fit-content; /* Could be more or less, depending on screen size */
+}
+
+.login_modal_text_container{
+	// background-color: #608dfd;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+
+}
+
+.login_modal_title{	
+  @extend .login_title;
+	font-size: 24px;
+  margin:10px 0;
+}
+
+//social share modal
+
+.modal_share_btn_container{
+	display:flex;
+	flex-direction: row;
+	width: inherit;
+	justify-content: center;
+	margin: 10px 25px;
+
+}
+
+.social_share_btn_box{
+	display:flex;
+	flex-direction: column;
+	width: fit-content;
+	margin: 0 5%;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+
+
+	&:hover{
+	transition: all ease-in-out 0.4s;
+	transform:scale(1.1);
+	cursor:pointer;
+}
+
+
+}
+
+.social_share_link_label{
+	font-family: $gibson;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 22px;
+	line-height: 100%;
+	color: $main-TextColor;
+	margin: 0 0 12px 0;
+  @media (max-width:768px){
+    text-align: center;
+    font-size: 16px;
+
+  }
+
+}
+
+
+.social_share_link_container{
+	display: flex;
+	flex-direction: column;
+  justify-content: center;
+	width: inherit;
+	margin: 20px auto;
+  	@media (max-width:768px){
+      // margin: 45px 0;
+    }
+
+
+}
+.social_share_link_box{
+	background-color: $grey-light;
+	width: 100%;
+
+	display: flex;
+	justify-content: space-between;
+	padding: 10px ;
+	/*text*/
+	font-family: $gibson;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 100%;
+	align-items: center;
+	color: $main-TextColor;
+	@media (max-width:768px){
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 14px;
+		padding: 5px ;
+    // margin: 0 10px;
+
+	}
+}
+
+.social_share_fb_icon_box{
+	// border-radius: 50px;
+	width: fit-content;
+	height: fit-content;
+	margin: 0 0 10px 0;
+	border-radius: 50%;
+	background-color: rgba(156, 178, 206, 0.3);
+	padding:20px ;
+	@media (max-width:768px) {
+		padding: 10px  ;
+		
+	}
+}
+
+
+
+.social_share_fb_icon{
+	font-size: 36px;
+	color:#3b5998;
+	@media (max-width:768px) {
+		font-size: 24px;
+
+	}
+}
+.social_share_wa_icon_box{
+	@extend .social_share_fb_icon_box;
+	background: rgba(76, 175, 80, 0.15);
+}
+.social_share_wa_icon{
+@extend .social_share_fb_icon;
+	color:#25d366;
+}
+.whatappshare_view{
+	display: none;
+
+	@media (max-width:768px){
+		display: contents;
+
+	}
+}
+
+.social_share_ma_icon_box{
+	@extend .social_share_fb_icon_box;
+	background: rgba(244, 67, 54, 0.15);
+}
+.social_share_ma_icon{
+	@extend .social_share_fb_icon;
+
+	color: #ea4335;
+
+}
+
+.social_share_text{
+	text-align: center;
+	font-family: $gibson;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 22px;
+	line-height: 100%;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: $main-TextColor;
+	overflow: visible;
+	@media (max-width:768px) {
+	font-size: 16px;
+	}
+}
+
+.social_share_link_icon{
+font-size: 24px ;
+padding: 5px;
+@media (max-width:768px){
+padding: 0;
+}
+&:hover{
+	background-color: $grey-dark;
+	border-radius: 50%;
+	cursor:pointer;
+
+}
+}
+.social_share_change_link{
+	
+  font-family: $gibson;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 100%;
+	display: flex;
+	align-items: center;
+	color: $main-TextColor;
+  @media (max-width:768px){
+  margin: 0 10px;
+  display: flex;
+  justify-content: center;
+  }
+
+	&:hover{
+		cursor: pointer;
+		color:var(--primary-color)
+	}
+}
+
+
+
+.social_share_qr_container{
+	display: flex;
+	flex-direction: column;
+	width: inherit;
+	// align-content: center;
+	justify-content: center;
+	align-items: center;
+	margin: 0 0 25px 0 ;
+  @media (max-width:768px){
+    margin: 20px 0;
+  }
+}
+
+.social_share_qr_text{
+	font-family: $gibson;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 22px;
+	line-height: 140%;
+	color: $main-TextColor;
+  text-align: center;
+  @media (max-width:768px){
+  	font-size: 16px;
+  }
+}
+
+.social_share_qr_img{
+	margin: 10px 0;
+}
+
+.social_share_qr_download_btn{
+	padding: 5px 10px;
+	border-radius: 10px;
+	background-color: var(--primary-color);
+	/*text*/
+	font-family: $gibson;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 140%;
+	color: $main-TextColor;
+	&:hover{
+		background-color:var(--secondary-color);
+		transition: all ease-in-out 0.4s;
+    cursor: pointer;
+  }
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,109 @@
+{
+    "max_memories": {
+
+        "title": "Maximum aantal herinneringen bereikt.",
+        "text": "Indien u meer herinneringen wilt toevoegen, dan kan u overschakelen naar een premium versie via instellingen als u beheerder of medebeheerder bent van het levensverhaal.",
+        "btn_left": "terugkeren",
+        "btn_right":"naar instellingen"
+
+    },
+    "max_authors": {
+
+        "title": "Maximum aantal auteurs",
+        "text": "Indien meer vrienden en familie wilt toevoegen aan dit prive levensverhaal, dan kan u overschakelen naar een premium versie als u beheerder of medebeheerder bent van het levensverhaal.",
+        "btn_left": "levensverhaal verlaten",
+        "btn_right":"naar instellingen"
+
+    },
+    "max_media": {
+
+        "title": "Maximum aantal media",
+        "text": "Indien u meer media wilt toevoegen. Kan u overschakelen naar een premium versie via instellingen als u beheerder of medebeheerder bent van het levensverhaal.",
+        "btn_left": "terugkeren",
+        "btn_right":"naar instellingen"
+
+    },
+    "max_bytes": {
+
+        "title": "Maximum aantal media",
+        "text": "Indien u meer media geheugen wilt toevoegen. Kan u overschakelen naar een premium versie via instellingen als u beheerder of medebeheerder bent van het levensverhaal.",
+        "btn_left": "terugkeren",
+        "btn_right":"naar instellingen"
+
+    },
+    "max_messages": {
+
+        "title": "Maximum aantal berichten",
+        "text": "Indien u meer berichten wilt toevoegen. Kan u overschakelen naar een premium versie via instellingen als u beheerder of medebeheerder bent van het levensverhaal.",
+        "btn_left": "terugkeren",
+        "btn_right":"naar instellingen"
+
+    },
+    "max_personal_messages": {
+
+        "title": "Maximum aantal persoonlijke boodschappen",
+        "text": "Indien u meer laatste boodschappen wilt toevoegen. Kan u overschakelen naar een premium versie via instellingen als u beheerder of medebeheerder bent van het levensverhaal.",
+        "btn_left": "terugkeren",
+        "btn_right":"naar instellingen"
+
+    },
+    "max_condo": {
+
+        "title": "Maximum aantal condoleances",
+        "text": "Indien u meer condoleances wilt toevoegen. Kan u overschakelen naar een premium versie via instellingen als u beheerder of medebeheerder bent van het levensverhaal.",
+        "btn_left": "terugkeren",
+        "btn_right":"naar instellingen"
+
+    },
+    "default_error": {
+
+        "title": "U schakelt best over naar premium.",
+        "text": "Indien u meer herinneringen wilt toevoegen. Kan u overschakelen naar een premium versie via instellingen als u beheerder of medebeheerder bent van het levensverhaal.",
+        "btn_left": "terugkeren",
+        "btn_right":"naar instellingen"
+
+    },
+    "verify_email": {
+
+        "title": "U bent vergeten uw account te verifieren.",
+        "text": "Indien u een nieuw levensverhaal wilt aanmaken moet u eerst een geverifieerd account hebben. Ga naar account instellingen om uw email te verifiëren.",
+        "btn_left": "terugkeren",
+        "btn_right":"naar account instellingen"
+
+    },
+    "remove_personal_message_access": {
+
+        "title": "Bent u zeker dat u deze persoon wilt verwijderen?",
+        "text":"",
+        "btn_left": "terugkeren",
+        "btn_right":"persoon verwijderen"
+
+    },
+    "not_owner_of_page": {
+
+        "title": "Enkel de eigenaar kan deze actie uitvoeren",
+        "text":"",
+        "btn_left": "terugkeren",
+        "btn_right":"persoon verwijderen"
+
+    },
+    "cant_promote_or_demote_yourself": {
+
+        "title": "U kan uw eigen status niet wijzigen",
+        "text":"",
+        "btn_left": "terugkeren",
+        "btn_right":"persoon verwijderen"
+
+    },"no_verified_partner": {
+
+        "title": "U bent nog geen geverifieerde partner",
+        "text":"Laat u verifieren voordat u een pagina kan aanmaken",
+        "btn_left": "terugkeren",
+        "btn_right":"naar account pagina"
+
+    }
+
+
+
+
+}

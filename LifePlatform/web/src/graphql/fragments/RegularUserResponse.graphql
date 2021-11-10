@@ -1,0 +1,11 @@
+fragment RegularUserResponse on LoginResponse{
+
+  errors{
+   ...RegularError
+  }
+  user{
+    ...RegularUser
+        
+  }
+  accessToken
+}

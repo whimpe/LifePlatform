@@ -1,0 +1,5 @@
+mutation digitize_confirmation( $name_of_page: String!,$page_id: String! ) {
+  digitize_confirmation( name_of_page: $name_of_page,page_id:$page_id ) 
+}
+
+

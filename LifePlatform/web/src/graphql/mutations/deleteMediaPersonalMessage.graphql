@@ -1,0 +1,3 @@
+# mutation DeleteMediaPersonalMessage($id: Int!) {
+#   deleteMediaPersonalMessage(id: $id)
+# }

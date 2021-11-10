@@ -1,0 +1,22 @@
+query OwnMessages($paginaId:String!,$limit: Int!, $cursor: String) {
+  ownMessages(paginaId:$paginaId,cursor: $cursor, limit: $limit) {
+    hasMore
+
+    berichten {
+      id
+      text
+      status
+      createdAt
+
+      creator {
+        username
+      }
+
+      media {
+        id
+        urlFile        
+        mediaType
+      }
+    }
+  }
+}

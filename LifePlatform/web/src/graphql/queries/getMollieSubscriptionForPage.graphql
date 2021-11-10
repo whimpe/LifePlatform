@@ -1,0 +1,12 @@
+query GetMollieSubscriptionForPage($public_token:String!) {
+  getMollieSubscriptionForPage(public_token:$public_token) {
+    mollieSubscriptionId
+    nextPaymentDate
+    startDate
+    status
+    description
+    interval
+    payment_plan
+  }
+    
+}

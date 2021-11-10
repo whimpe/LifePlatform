@@ -1,0 +1,7 @@
+mutation ChangeMemoryOnTimelineState($id:String!,$status:Boolean!,$paginaId:String!){
+  changeMemoryOnTimelineState(id:$id,status:$status,paginaId:$paginaId){
+    id
+    status
+    on_timeline
+  }
+}

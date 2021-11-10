@@ -1,0 +1,9 @@
+mutation CreateHerinnering($paginaId:String!,$input: HerinneringInput!,$status:Float) {
+  createHerinnering(input: $input, paginaId:$paginaId,status:$status) {
+    id
+    title
+    text
+    categorie
+    datumVanHerinnering
+  }
+}

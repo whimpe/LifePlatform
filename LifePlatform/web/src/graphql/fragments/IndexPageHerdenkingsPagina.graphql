@@ -1,0 +1,19 @@
+fragment IndexPageHerdenkingsPagina on HerdenkingsPagina {
+  id
+            mediaUrl
+            name_of_page
+            text
+            DoB
+            DoD
+            condoleance_active
+            shareable
+            accessible
+            control_before
+            number_of_people
+            Payment_plan
+            DesignType
+}
+
+
+
+

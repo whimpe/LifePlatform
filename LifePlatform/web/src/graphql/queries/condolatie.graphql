@@ -1,0 +1,16 @@
+query Condolatie($id: String!, $paginaId:String!) {
+  condolatie(id:$id,paginaId:$paginaId) {
+    id
+    creator{
+      id
+      username
+    }
+    text
+    media {
+      id
+      urlFile
+    }
+    
+  }
+  
+}

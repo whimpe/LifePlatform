@@ -1,0 +1,3 @@
+mutation CancelMollieSubscription($public_token:String!,$MollieSubscriptionId:String!){
+  cancelMollieSubscription(public_token:$public_token,MollieSubscriptionId:$MollieSubscriptionId)
+}

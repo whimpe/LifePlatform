@@ -1,0 +1,7 @@
+mutation CreateMessage($paginaId:String!,$input: MessageInput!) {
+    createMessage(input: $input, paginaId:$paginaId) {
+    id
+    text
+    status
+  }
+}

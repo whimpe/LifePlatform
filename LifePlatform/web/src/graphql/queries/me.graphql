@@ -1,0 +1,13 @@
+query Me($paginaId:String) {
+  me(paginaId:$paginaId) {
+  user{
+    username
+    account_status
+    id
+    email
+  }
+  status
+  partner_type
+  
+  }
+}

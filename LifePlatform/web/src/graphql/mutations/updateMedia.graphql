@@ -1,0 +1,13 @@
+mutation UpdateMedia(
+$datumVanMedia: DateTime!
+$text: String!
+$title: String!
+$id: String!
+){
+  updateMedia(id:$id,datumVanMedia:$datumVanMedia,
+    text:$text, title:$title){
+    id
+    title
+    text
+  }
+}

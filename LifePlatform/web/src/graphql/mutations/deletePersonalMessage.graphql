@@ -1,0 +1,4 @@
+mutation DeletePersonalMessage($id: String!,$paginaId:String! ){
+  deletePersonalMessage(id:$id,paginaId:$paginaId)
+  
+}

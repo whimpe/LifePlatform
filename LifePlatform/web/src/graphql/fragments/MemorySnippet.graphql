@@ -1,0 +1,20 @@
+fragment MemorySnippet on Herinnering {
+  id
+  title
+  text
+  categorie
+  creator {
+    id
+    username
+  }
+  media {
+    text
+    title
+    urlFile
+  }
+  comments {
+    id
+    comment
+  }
+
+}
